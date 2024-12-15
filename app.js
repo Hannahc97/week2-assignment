@@ -7,7 +7,8 @@ const images = [
     { src : "./media/mangoes.jpg", alt : "A bunch of ripe mangoes laid together "},
     { src: "./media/pineapple.webp", alt: "Two pineapples placed next to each other" },
     { src: "./media/strawberries.webp", alt: "Strawberries spread out on a pink background" },
-    { src: "./media/blueberries.avif", alt: "A bunch of blueberries" }
+    { src: "./media/blueberries.avif", alt: "A bunch of blueberries" },
+    { src: "./media/dragonfruit.jpg", alt: "A whole dragonfruit and a sliced dragonfruit next to each other" }
     // { src: "local relative path", alt: "a description of the image" }
 ];
 
