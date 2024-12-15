@@ -7,6 +7,10 @@ Please also provide an assignment reflection in your project README.md file.
 
 Required
 🎯 What requirements did you achieve?
+
+I ensured all images have appropriate alt text attributes for accessibility.
+I used event handlers in javascript so that when users click on the thumbnail images they switch.
+
 🎯 Were there any requirements or goals that you were unable to achieve?
 🎯 If so, what was it that you found difficult about these tasks?
 Optional

@@ -8,19 +8,47 @@
     background-color: paleturquoise;
 } */
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    box-sizing: border-box;
+    position:  absolute;
+}
+
 /* You need to resize the image in the large container to cover the full screen */
 /*! Need media queries */
 /* You can approach the design from a desktop or mobile point of view. If you start from mobile, you need to scale up to desktop. If you start as desktop, you need to scale down to mobile */
 
-body {
-    background-color: black;
-    display: flex;
-    
-    width: 100px;
-}
 
 .thumbnail-container {
-    justify-content: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    grid-template-rows:auto;
+    width: 100px;
+    
 }
 
+.large-image-container{
+    position: relative;
+    display: flex;
+    align-items: start;
+    width: 100%;
+}
 
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+    .thumbnail-container {
+        position: relative;
+        flex-direction: row;
+        /* justify-content: space-evenly; */
+        grid-template-rows:max-content;
+    }
+    .large-image-container{
+        position: relative;
+        flex-direction: row;
+        align-items: start;
+        object-fit: cover;
+    }
+} 

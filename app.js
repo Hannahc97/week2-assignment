@@ -4,10 +4,10 @@ console.log("Hello world!");
 
 //inside array you want objects - like source, alt, width...
 const images = [
-    { src : "./media/mangoes.jpg", alt : "Mangoes"},
-    { src: "./media/pineapple.webp", alt: "Pineapples" },
-    { src: "./media/strawberries.webp", alt: "Strawberries" },
-    { src: "./media/blueberries.avif", alt: "Blueberries" }
+    { src : "./media/mangoes.jpg", alt : "A bunch of ripe mangoes laid together "},
+    { src: "./media/pineapple.webp", alt: "Two pineapples placed next to each other" },
+    { src: "./media/strawberries.webp", alt: "Strawberries spread out on a pink background" },
+    { src: "./media/blueberries.avif", alt: "A bunch of blueberries" }
     // { src: "local relative path", alt: "a description of the image" }
 ];
 
@@ -15,9 +15,9 @@ const images = [
 // STEP 1: Select the DOM element we are manipulating 
 // I need to select both the thumbnail container and large image container
 
-const thumbnailContainer = document.getElementById("thumbnail-container")
+const thumbnailContainer = document.getElementById("thumbnail-container");
 
-const largeImageContainer = document.getElementById("large-image-container")
+const largeImageContainer = document.getElementById("large-image-container");
 
 
 // Since creating the thumbnail images takes more than 1 step, what is the best way to write a block of code? Function
@@ -35,9 +35,9 @@ function createThumbnails (imagesArray) {
             createLargeImageHandler(image);
             });
             thumbnailContainer.appendChild(thumbnail);
-    }
-}
-createThumbnails (images)
+    };
+};
+createThumbnails (images);
     
 
 
@@ -67,7 +67,7 @@ function createLargeImageHandler (largeImage){
     // Create an image element
     // We need to assign values to the image element properties
     // We also need to add a value to the className property 
-}
+};
 //! We don't call the createLargeImagesHandler here. It is an event handler 
 
 
