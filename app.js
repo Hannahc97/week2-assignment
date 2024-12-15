@@ -70,22 +70,3 @@ function createLargeImageHandler (largeImage){
     // We also need to add a value to the className property 
 };
 //! We don't call the createLargeImagesHandler here. It is an event handler 
-
-
-// const thumbnailContainer = document.getElementById("thumbnail-container");
-// const largeImageContainer = document.getElementById("large-image-container");
-
-// function createThumbnails(imagesArray) {
-//     for (let i = 0; i < imagesArray.length; i++) {
-//       const image = imagesArray[i];
-//       const thumbnail = document.createElement("img");
-//       thumbnail.src = image.src;
-//       thumbnail.alt = image.alt;
-//       thumbnail.className = "thumbnail";
-//       thumbnail.addEventListener("click", function () {
-//         createLargeImageHandler(image);
-//       });
-//       const thumbnailContainer = document.getElementById("thumbnail-container");
-//   thumbnailContainer.appendChild(thumbnail);
-//     }
-// }
