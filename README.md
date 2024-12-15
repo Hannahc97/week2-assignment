@@ -19,9 +19,11 @@ I also was unable to get the large container image to fill the page and be respo
 I did find the for loop quite difficult to implement at the start which took quite some time to figure out, however I got there in the end.
 
 Requesting feedback about a specific part of your submission.
-Please can you advise how you would get the large container image to fill the page and be responsive. Also, how would you centre the thumbnail and be responsive at the same time?
 
-As well how does the reset work? Did I import it correctly, I didn't see a difference?
+Please can you advise how you would get the large container image to fill the page and be responsive, as some of the images are too big and you have to scroll down to view it all. 
+Also, how would you centre the thumbnail and make it responsive at the same time?
+As well how does the reset work? Did I import it correctly, I didn't see a difference? 
+Also, when the page starts for the first time, it's blank, how do I make it load so there's a large image already showing, such as the first image in the thumbnail?
 
 What useful external sources helped you complete the assignment (e.g Youtube tutorials)?
 I used these resoures:
