@@ -1,13 +1,26 @@
 /* recommend full reset - https://jgthms.com/minireset.css/ */
 
-* {
-    margin: 0;
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+    /* margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: paleturquoise;
-}
+} */
 
 /* You need to resize the image in the large container to cover the full screen */
 /*! Need media queries */
 /* You can approach the design from a desktop or mobile point of view. If you start from mobile, you need to scale up to desktop. If you start as desktop, you need to scale down to mobile */
+
+body {
+    background-color: black;
+    display: flex;
+    
+    width: 100px;
+}
+
+.thumbnail-container {
+    justify-content: center;
+}
+
 
